@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SoundStartActivity">
+
+    <Button
+        android:id="@+id/btPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onPlayButtonClick"
+        android:text="@string/bt_play_play"/>
+    <Button
+        android:id="@+id/btStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:onClick="onStopButtonClick"
+        android:text="@string/bt_play_stop"/>
+
+</android.support.constraint.ConstraintLayout>
